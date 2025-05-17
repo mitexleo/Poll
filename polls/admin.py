@@ -12,4 +12,3 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ('question_text', 'pub_date')  # Optional: improves admin list view
 
 admin.site.register(Question, QuestionAdmin)
-admin.site.register(Choice)  # Optional: keeps Ch
